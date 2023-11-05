@@ -30,3 +30,7 @@ available at https://github.com/alsa-project/alsa-tests/tree/master/python/ucm-v
 
 If you create a pull request for new hardware, please, add also the
 alsa-info.sh output to emulate this hardware in the UCM validator.
+
+
+# If no sound, copy ucm and ucm2 to /usr/share/alsa/
+# Make sure ucm2/USB-Audio/USB-audio.conf syntax is set to 4
